@@ -1,0 +1,17 @@
+Required Libraries 
+
+matplotlib
+numpy
+opencv-python
+pandas
+PyOpenGL
+PyQt5
+pyqtgraph
+pyserial
+pyserial-asyncio
+qimage2ndarray
+quamash
+raven
+scikit-image
+
+git+https://github.com/labjack/LabJackPython.git
