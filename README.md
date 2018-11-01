@@ -12,3 +12,6 @@ other equipment. In the protocol design, stimulus points can be incremented line
 multiple trial experiments and all settings and experimental protocols can be saved and loaded via JSON files. 
 OptoStim can also stream and display data from Arduino microcontrollers to display/monitor behavioural or 
 physiological parameters. OptoSim can also utilise inputs from microcontrollers to control closed-loop experiments.
+
+
+![alt text](https://github.com/JohnstonLab/OptoStim/blob/master/optostim/OptoStimLogo.jpeg?raw=true)
