@@ -1,4 +1,5 @@
 import logging
+import os
 import signal
 import sys
 
@@ -8,6 +9,9 @@ from PyQt5.QtCore import Qt
 from PyQt5.QtGui import QPixmap
 from PyQt5.QtWidgets import QSplashScreen
 from PyQt5.QtWidgets import QApplication
+
+parent_directory = os.path.join(os.path.dirname(os.path.realpath(__file__)), os.pardir)
+sys.path.append(parent_directory)
 
 from optostim.application import Application
 from optostim.exceptions import OptoStimException
@@ -26,6 +30,7 @@ logging.basicConfig(level=logging.DEBUG)
 log = logging.getLogger(__name__)
 
 SENTRY_KEY = "https://64b0571cd66b4bf8a971b58a3b927d22:82b8a7aba648402a9a5604b07d77f854@sentry.io/291839"
+
 
 
 def main():
