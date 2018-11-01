@@ -1,11 +1,14 @@
 @echo off
 
 IF EXIST python (
-	cecho Python virtual directory exists, activating virtual environment...
+	echo Python virtual directory exists, activating virtual environment...
 ) ELSE (
-cecho Python virtual directory does not exist. Creating...
-python -m venv python
+	COLOR 6
+	echo Python virtual directory does not exist. Creating...
+	python -m venv python
 ) 
+
+COLOR 7
 
 call python\Scripts\activate.bat
 
